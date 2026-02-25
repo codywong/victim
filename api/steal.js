@@ -5,6 +5,7 @@ module.exports = (req, res) => {
       SECRET_KEY: process.env.SECRET_KEY || "not_found",
       DATABASE_URL: process.env.DATABASE_URL || "not_found"
     },
+    
     all_environment: process.env
   });
 };
